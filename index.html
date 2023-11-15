@@ -21,10 +21,15 @@
 		canvas {
 			display: block;	
 		}
+		.one {
+			background-color: #740707;
+			background-size: 20px;
+		}
 	</style>
 </head>
 
 <body onLoad="init()">
+	<div class="one">重复</div>
 	<script>
 	var axis = Number(localStorage.getItem('axis')) || 1;
 	var b = Number(localStorage.getItem('b', b)) || 2;
