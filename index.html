@@ -21,10 +21,15 @@
 		canvas {
 			display: block;	
 		}
+		#one {
+			background-color: #540505;
+			font-size: 40px;
+		}
 	</style>
 </head>
 
 <body onLoad="init()">
+	<p id="one">你好</p>
 	<script>
 	var axis = Number(localStorage.getItem('axis')) || 1;
 	var b = Number(localStorage.getItem('b', b)) || 2;
